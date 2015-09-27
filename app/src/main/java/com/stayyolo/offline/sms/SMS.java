@@ -43,8 +43,8 @@ public class SMS {
             Log.d("parth"," bad luck");
         }
 
-
-        String smsMessage = "@bookola "+lat+","+lng;
+        String cartype = "sedan";
+        String smsMessage = "@bookola "+lat+","+lng+","+cartype;
 
         Log.d("parth",smsMessage);
 //        try {
